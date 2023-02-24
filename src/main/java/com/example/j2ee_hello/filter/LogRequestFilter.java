@@ -10,7 +10,7 @@ import java.io.IOException;
 public class LogRequestFilter implements Filter {
 
     @Inject
-    private LogServiceImpl logService;
+    private LogService logService;
     public void init(FilterConfig config) throws ServletException {
     }
 

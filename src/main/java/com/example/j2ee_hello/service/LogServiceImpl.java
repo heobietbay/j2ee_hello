@@ -5,6 +5,6 @@ import javax.servlet.ServletRequest;
 public class LogServiceImpl implements LogService{
     @Override
     public void logRequest(ServletRequest request) {
-
+        System.out.println("Logging request.....");
     }
 }
