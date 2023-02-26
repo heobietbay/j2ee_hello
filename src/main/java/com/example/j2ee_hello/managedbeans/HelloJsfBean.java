@@ -1,8 +1,8 @@
 package com.example.j2ee_hello.managedbeans;
 
-import javax.enterprise.context.ApplicationScoped;
+import javax.inject.Named;
 
-@ApplicationScoped
+@Named
 public class HelloJsfBean {
     public String getMessage() {
         return "Hello JSF!";
